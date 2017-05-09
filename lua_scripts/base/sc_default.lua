@@ -120,6 +120,6 @@ function ChatMsg(type)
     elseif (type == 0x2D) then
         return("Battleground Leader")
     else
-        return(type)
+        return tostring(type)
     end
 end
